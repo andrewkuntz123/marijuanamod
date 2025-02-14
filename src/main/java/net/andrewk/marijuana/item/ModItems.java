@@ -1,6 +1,7 @@
 package net.andrewk.marijuana.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.andrewk.marijuana.TutorialMod;
@@ -8,10 +9,11 @@ import net.andrewk.marijuana.block.ModBlocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item GINDER = registerItem("grinder", new Item(new FabricItemSettings()));
+    public static final Item GRINDER = registerItem("grinder", new Item(new FabricItemSettings()));
     public static final Item MARIJUANA = registerItem("marijuana", new Item(new FabricItemSettings()));
     public static final Item JOINT = registerItem("joint", new Item(new FabricItemSettings().food(ModFoodComponents.STONED)));
     public static final Item GRINDED_MARIJUANA = registerItem("grinded_marijuana", new Item(new FabricItemSettings()));
