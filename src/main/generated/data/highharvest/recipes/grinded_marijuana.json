@@ -11,5 +11,8 @@
   "result": {
     "item": "highharvest:grinded_marijuana",
     "count": 3
+  },
+  "owo:remainders": {
+    "highharvest:grinder": "highharvest:grinder"
   }
 }

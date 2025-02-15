@@ -30,7 +30,8 @@ public class ModItems {
 
     //Smokeable Itmes
     public static final Item JOINT = registerItem("joint", new Item(new FabricItemSettings().food(ModFoodComponents.BASE_STONED)));
-    public static final Item BONG = registerItem("bong", new Item(new FabricItemSettings().food(ModFoodComponents.BASE_STONED)));
+    public static final Item BONG = registerItem("bong", new Item(new FabricItemSettings()));
+    public static final Item MARIJUANA_BONG = registerItem("marijuana_bong", new Item(new FabricItemSettings().food(ModFoodComponents.BASE_STONED)));
     public static final Item SMOOGLY_JOINT = registerItem("smoogly_joint", new Item(new FabricItemSettings().food(ModFoodComponents.SMOOGLY_STONED)));
     public static final Item SMOOGLY_BONG = registerItem("smoogly_bong", new Item(new FabricItemSettings().food(ModFoodComponents.SMOOGLY_STONED)));
 

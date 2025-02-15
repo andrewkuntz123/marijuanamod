@@ -3,14 +3,14 @@
   "pattern": [
     " # ",
     " # ",
-    "#I#"
+    "#L#"
   ],
   "key": {
     "#": {
       "item": "minecraft:glass"
     },
-    "I": {
-      "item": "highharvest:grinded_marijuana"
+    "L": {
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

@@ -32,6 +32,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.JOINT);
                         entries.add(ModItems.BONG);
+                        entries.add(ModItems.MARIJUANA_BONG);
                         entries.add(ModItems.SMOOGLY_JOINT);
                         entries.add(ModItems.SMOOGLY_BONG);
 
