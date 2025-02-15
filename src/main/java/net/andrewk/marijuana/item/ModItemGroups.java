@@ -17,7 +17,6 @@ public class ModItemGroups {
 
 
                         entries.add(ModItems.MARIJUANA_SEEDS);
-                        entries.add(ModItems.SMOOGLY_SEEDS);
 
 
                         entries.add(ModItems.MARIJUANA);
