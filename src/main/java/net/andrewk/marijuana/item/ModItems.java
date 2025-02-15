@@ -13,9 +13,9 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item GRINDER = registerItem("grinder", new Item(new FabricItemSettings()));
     public static final Item MARIJUANA = registerItem("marijuana", new Item(new FabricItemSettings()));
-    public static final Item JOINT = registerItem("joint", new Item(new FabricItemSettings().food(ModFoodComponents.STONED)));
+    public static final Item JOINT = registerItem("joint", new Item(new FabricItemSettings().food(ModFoodComponents.BASE_STONED)));
     public static final Item GRINDED_MARIJUANA = registerItem("grinded_marijuana", new Item(new FabricItemSettings()));
-    public static final Item BONG = registerItem("bong", new Item(new FabricItemSettings().food(ModFoodComponents.STONED)));
+    public static final Item BONG = registerItem("bong", new Item(new FabricItemSettings().food(ModFoodComponents.BASE_STONED)));
 
 
 

@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 
 
 public class ModFoodComponents {
-    public static final FoodComponent STONED = new FoodComponent.Builder().alwaysEdible()
+    public static final FoodComponent BASE_STONED = new FoodComponent.Builder().alwaysEdible()
             .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 1), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 160, 1), 0.3F)
             .build();

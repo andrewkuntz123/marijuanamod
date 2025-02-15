@@ -5,5 +5,6 @@
   "item.highharvest.grinder": "Grinder",
   "item.highharvest.bong": "Bong",
   "item.highharvest.joint": "Joint",
-  "item.highharvest.grinded_marijuana": "Grinded Marijuana"
+  "item.highharvest.grinded_marijuana": "Grinded Marijuana",
+  "itemgroup.marijuana": "High Harvest"
 }

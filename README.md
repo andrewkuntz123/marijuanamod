@@ -1,4 +1,4 @@
-# High Harvest 1.20.1
+# High Harvest 1.20.1 Hi Abby
 # Take your farming experience to a whole new level with the _High Harvest_ mod! This mod adds the ability to grow weed seeds, cultivate your very own marijuana plants, and harvest the crops for a new kind of adventure.
 
 ## Key Features:
