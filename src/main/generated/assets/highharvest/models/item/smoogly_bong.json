@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "highharvest:item/bong"
+    "layer0": "highharvest:item/smoogly_bong"
   }
 }

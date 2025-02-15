@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "highharvest:item/joint"
+    "layer0": "highharvest:item/smoogly_joint"
   }
 }

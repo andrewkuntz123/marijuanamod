@@ -10,5 +10,6 @@ public class TutorialModClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MARIJUANA_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SMOOGLY_CROP, RenderLayer.getCutout());
     }
 }

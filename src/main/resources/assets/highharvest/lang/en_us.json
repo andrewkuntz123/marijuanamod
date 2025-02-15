@@ -1,10 +1,15 @@
 {
 
   "item.highharvest.marijuana_seeds": "Marijuana Seeds",
+  "item.highharvest.smoogly_seeds": "Smoogly OG Seeds",
   "item.highharvest.marijuana": "Marijuana",
   "item.highharvest.grinder": "Grinder",
   "item.highharvest.bong": "Bong",
   "item.highharvest.joint": "Joint",
   "item.highharvest.grinded_marijuana": "Grinded Marijuana",
+  "item.highharvest.smoogly_og": "Smoogly OG",
+  "item.highharvest.grinded_smoogly_og": "Grinded Smoogly OG",
+  "item.highharvest.smoogly_joint": "Joint w/ Smoogly OG",
+  "item.highharvest.smoogly_bong": "Bong w/ Smoogly OG",
   "itemgroup.marijuana": "High Harvest"
 }

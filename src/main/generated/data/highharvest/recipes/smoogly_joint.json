@@ -10,11 +10,11 @@
       "item": "minecraft:paper"
     },
     "S": {
-      "item": "highharvest:grinded_marijuana"
+      "item": "highharvest:grinded_smoogly_og"
     }
   },
   "result": {
-    "item": "highharvest:joint",
+    "item": "highharvest:smoogly_joint",
     "count": 1
   }
 }

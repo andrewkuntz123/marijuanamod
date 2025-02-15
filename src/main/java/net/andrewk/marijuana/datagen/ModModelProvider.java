@@ -1,5 +1,6 @@
 package net.andrewk.marijuana.datagen;
 
+import net.andrewk.marijuana.block.custom.SmooglyCropBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.andrewk.marijuana.block.ModBlocks;
@@ -18,11 +19,13 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
         blockStateModelGenerator.registerCrop(ModBlocks.MARIJUANA_CROP, MarijuanaCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.SMOOGLY_CROP, SmooglyCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.MARIJUANA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SMOOGLY_OG, Models.GENERATED);
 
     }
 }

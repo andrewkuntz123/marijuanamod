@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "highharvest:block/marijuana_crop_stage3"
+    "crop": "highharvest:block/smoogly_crop_stage3"
   }
 }

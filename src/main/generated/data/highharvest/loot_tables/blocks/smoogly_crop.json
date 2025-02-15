@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "highharvest:marijuana_crop",
+                  "block": "highharvest:smoogly_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "5"
                   }
                 }
               ],
-              "name": "highharvest:marijuana"
+              "name": "highharvest:smoogly_og"
             },
             {
               "type": "minecraft:item",
-              "name": "highharvest:marijuana_seeds"
+              "name": "highharvest:smoogly_seeds"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "highharvest:marijuana_crop",
+          "block": "highharvest:smoogly_crop",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "5"
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "highharvest:marijuana_seeds"
+          "name": "highharvest:smoogly_seeds"
         }
       ],
       "rolls": 1.0
