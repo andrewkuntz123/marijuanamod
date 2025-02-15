@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "SSS",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "highharvest:grinded_marijuana"
+    }
+  },
+  "result": {
+    "item": "highharvest:joint",
+    "count": 1
+  }
+}
