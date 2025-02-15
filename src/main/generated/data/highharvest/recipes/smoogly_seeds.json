@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "highharvest:grinded_marijuana"
+      "item": "highharvest:marijuana_seeds"
     },
     {
       "item": "minecraft:redstone"
@@ -11,10 +11,10 @@
       "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "highharvest:grinded_smoogly_og"
     }
   ],
   "result": {
-    "item": "highharvest:grinded_smoogly_og"
+    "item": "highharvest:smoogly_seeds"
   }
 }
