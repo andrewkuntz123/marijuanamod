@@ -1,14 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
+    "iii",
     "III",
     "iii"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:iron_trapdoor"
-    },
     "I": {
       "item": "minecraft:iron_bars"
     },

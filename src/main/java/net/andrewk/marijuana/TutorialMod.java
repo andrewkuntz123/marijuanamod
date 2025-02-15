@@ -1,6 +1,7 @@
 package net.andrewk.marijuana;
 
 import net.andrewk.marijuana.item.ModItemGroups;
+import net.andrewk.marijuana.util.ModCustomTrades;
 import net.andrewk.marijuana.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +21,7 @@ public class TutorialMod implements ModInitializer {
 			ModBlocks.registerModBlocks();
 			ModItemGroups.registerItemGroups();
 			ModLootTableModifiers.modifyLootTables();
+			ModCustomTrades.registerCustomTrades();
 
 	}
 }

@@ -17,11 +17,24 @@ public class ModItemGroups {
 
 
                         entries.add(ModItems.MARIJUANA_SEEDS);
+                        entries.add(ModItems.SMOOGLY_SEEDS);
+
+
                         entries.add(ModItems.MARIJUANA);
+                        entries.add(ModItems.SMOOGLY_OG);
+
+
                         entries.add(ModItems.GRINDED_MARIJUANA);
+                        entries.add(ModItems.GRINDED_SMOOGLY_OG);
+
                         entries.add(ModItems.GRINDER);
+
+
                         entries.add(ModItems.JOINT);
                         entries.add(ModItems.BONG);
+                        entries.add(ModItems.MARIJUANA_BONG);
+                        entries.add(ModItems.SMOOGLY_JOINT);
+                        entries.add(ModItems.SMOOGLY_BONG);
 
 
                     }).build());

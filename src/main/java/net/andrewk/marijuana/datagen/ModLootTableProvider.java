@@ -20,5 +20,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.MARIJUANA_CROP).properties(StatePredicate.Builder.create()
                 .exactMatch(MarijuanaCropBlock.AGE, 5));
         addDrop(ModBlocks.MARIJUANA_CROP, cropDrops(ModBlocks.MARIJUANA_CROP, ModItems.MARIJUANA, ModItems.MARIJUANA_SEEDS, builder));
+
+        BlockStatePropertyLootCondition.Builder builder1 = BlockStatePropertyLootCondition.builder(ModBlocks.MARIJUANA_CROP).properties(StatePredicate.Builder.create()
+                .exactMatch(MarijuanaCropBlock.AGE, 5));
+        addDrop(ModBlocks.SMOOGLY_CROP, cropDrops(ModBlocks.SMOOGLY_CROP, ModItems.SMOOGLY_OG, ModItems.SMOOGLY_SEEDS, builder1));
     }
 }

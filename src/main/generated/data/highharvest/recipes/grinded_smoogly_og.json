@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "highharvest:marijuana"
+      "item": "highharvest:smoogly_og"
     },
     {
       "item": "highharvest:grinder"
     }
   ],
   "result": {
-    "item": "highharvest:grinded_marijuana",
+    "item": "highharvest:grinded_smoogly_og",
     "count": 3
   },
   "owo:remainders": {

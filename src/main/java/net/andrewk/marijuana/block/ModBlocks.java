@@ -1,5 +1,6 @@
 package net.andrewk.marijuana.block;
 
+import net.andrewk.marijuana.block.custom.SmooglyCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.andrewk.marijuana.TutorialMod;
@@ -15,6 +16,9 @@ public class ModBlocks {
 
     public static final Block MARIJUANA_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "marijuana_crop"),
             new MarijuanaCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block SMOOGLY_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "smoogly_crop"),
+            new SmooglyCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

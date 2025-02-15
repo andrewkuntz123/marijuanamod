@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "highharvest:bong"
+    },
+    {
+      "item": "highharvest:grinded_smoogly_og"
+    }
+  ],
+  "result": {
+    "item": "highharvest:smoogly_bong",
+    "count": 1
+  },
+  "owo:remainders": {
+    "highharvest:bong": "highharvest:bong"
+  }
+}
